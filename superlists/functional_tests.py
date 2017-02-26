@@ -8,3 +8,9 @@ browser = webdriver.Firefox()
 browser.get('http://localhost:8000')
 
 assert 'Django' in browser.title
+
+def some_test_funtion():
+    """Description"""
+    var = 0
+    var2 = 11
+    pass
